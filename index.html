@@ -2,6 +2,10 @@
 	<head>
 		<title>wikileaks.ch</title>
 		<style>
+			body {
+				margin: 0px;
+			 	font-family: sans-serif;
+			}
 			div.full {
 				height: 100%;
 				display: flex;
@@ -10,28 +14,48 @@
 			div.header {
 				background-color: #F9B200;
 				color: black;
+				margin-top: 0;
+				height: 4em;
+				padding-left: 1em;
+				padding-top: 1em;
+				padding-right: 1em;
 			}
 			div.content {
 				background-color: white;
 				color: black;
 				flex-grow: 1;
+				padding-left: 1em;
+				padding-top: 1em;
 			}
 			div.footer {
 				background-color: #F9B200;
 				color: black;
+				height: 2em;
+				padding-left: 1em;
+				padding-top: 0.5em;
+			}
+			div.title {
+				font-size: 3em;
+				float: left;
+			}
+			div.logo {
+				float: right;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="full">
 			<div class="header">
-				wikileaks.ch
+				<div class="title">wikileaks.ch</div>
+				<div class="logo"> <img height="50px" src="pirateparty.png"/></div>
 			</div>
 			<div class="content">
-				bla blubb tra tra ra!
+				<p>The Pirate Party Switzerland as holder of this domain has been informed by the Swiss Registry Switch about a malware served on Wikileaks and threatend with delisting of this domain. For more information, please consult our <a href="https://www.pirateparty.ch/2017/04/18/swiss-domain-registry-switch-threatening-to-disable-wikileaks-ch/">press release</a>.</p>
+				<p><a href="https://wikileaks.org">Continue to wikileaks.org</a> at your own risk.</p>
+				<p>Visit the Pirate Party site in <a href="https://piratenpartei.ch">German</a> or <a href="https://partipirate.ch">French</a>.
 			</div>
 			<div class="footer">
-				Pirate Party Switzerland, 3000 Berne - info@pirateparty.ch
+				Pirate Party Switzerland, 3000 Berne - <a href="mailto:info@pirateparty.ch">info@pirateparty.ch</a>
 			</div>
 		</div>
 	</body>
